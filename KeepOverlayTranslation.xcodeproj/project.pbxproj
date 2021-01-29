@@ -13,6 +13,7 @@
 		4085320925C1C11A00B2267C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4085320725C1C11A00B2267C /* Main.storyboard */; };
 		4085321525C1C11A00B2267C /* KeepOverlayTranslationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085321425C1C11A00B2267C /* KeepOverlayTranslationTests.swift */; };
 		4085322025C1C11A00B2267C /* KeepOverlayTranslationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4085321F25C1C11A00B2267C /* KeepOverlayTranslationUITests.swift */; };
+		4085323225C1C18A00B2267C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4085323125C1C18A00B2267C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4085321B25C1C11A00B2267C /* KeepOverlayTranslationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepOverlayTranslationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4085321F25C1C11A00B2267C /* KeepOverlayTranslationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepOverlayTranslationUITests.swift; sourceTree = "<group>"; };
 		4085322125C1C11A00B2267C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4085323125C1C18A00B2267C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4085323225C1C18A00B2267C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 				4085321325C1C11A00B2267C /* KeepOverlayTranslationTests */,
 				4085321E25C1C11A00B2267C /* KeepOverlayTranslationUITests */,
 				408531FF25C1C10E00B2267C /* Products */,
+				4085323025C1C18900B2267C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +126,14 @@
 				4085322125C1C11A00B2267C /* Info.plist */,
 			);
 			path = KeepOverlayTranslationUITests;
+			sourceTree = "<group>";
+		};
+		4085323025C1C18900B2267C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4085323125C1C18A00B2267C /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
